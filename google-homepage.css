@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.google-logo {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.google-logo-container {
+    position: relative;
+    height: 100vh;
+}
+
+.search-box {
+    border-radius: 30px;
+    height: 3em;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(190, 189, 189);
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding-left: 45px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 45%;
+    left: 36.4%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    opacity: 0.3;
+}
+
+.mic-icon {
+    display: block;
+    width: 15px;
+    position: absolute;
+    top: 45%;
+    left: 63.3%;
+    transform: translate(-50%, -50%);
+}
+
+.s-btn1, .s-btn2 {
+    position: absolute;
+    top: 53%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    padding: 10px 0px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 15px;
+    color: rgb(83, 82, 82);
+}
+
+.s-btn2 {
+    position: absolute;
+    top: 53%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    width: 135px;
+}
+
+.s-btn1:hover, .s-btn2:hover {
+    border: 1px solid rgb(211, 201, 201);
+    border-radius: 8px;
+}
+
+.topnav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    cursor: none;
+    cursor: pointer;
+}
+
+.topnav button{
+    background: rgb(68, 68, 218);
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.topnav a {
+    margin: 5px 10px;
+}
+
+.topnav img {
+    position: relative;
+    top: 7px;
+}
+
+/* .topnav img:hover, .topnav button:hover, .topnav a:hover {
+    cursor: pointer;
+} */
+
+.btm-left-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.btm-right-nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    padding: 10px;
+
+}
+
+.btm-right-nav a {
+    margin-left: 20px;
+}
+
+.btm-left-nav a {
+    margin-right: 20px;
+}
